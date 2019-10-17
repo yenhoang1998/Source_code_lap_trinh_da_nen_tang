@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="btcn_2.stacklayoutVertical">
+    <ContentPage.Content>
+        <StackLayout Spacing="0" Orientation="Vertical" VerticalOptions="FillAndExpand">
+            <Label Text="star is flush left" HorizontalOptions="Start"/>
+            <Label Text="start 2" HorizontalOptions="Start" />
+            <Label Text="center" HorizontalOptions="Center"/>
+            <Label Text="center 2" HorizontalOptions="Center"/>
+            <Label Text="end 1" HorizontalOptions="End"/>
+            <Label Text="end is flush right" HorizontalOptions="End"/>
+            
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
