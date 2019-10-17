@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:btcn_2"
+             x:Class="btcn_2.MainPage">
+
+    <StackLayout>
+        <Button Text="stackLayoutHorizontal" Clicked="Button_clicked"/>
+        <Button Text="stacklayoutvertical" Clicked="Button_clicked_1"/>
+        <Button Text="stackHorizontal_2" Clicked="Button_clicked_2"/>
+        <Button Text="stackHorizontal_3" Clicked="Button_clicked_3"/>
+        <Button Text="flexlayout" Clicked="Button_clicked_4"/>
+        <Button Text="grid" Clicked="Button_clicked_5"/>
+
+    </StackLayout>
+
+</ContentPage>
